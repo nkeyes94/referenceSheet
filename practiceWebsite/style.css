@@ -1,0 +1,15 @@
+/*This is a CSS comment*/
+
+/*Our first ID*/
+/*IDs use the # sign*/
+#firstID 
+{
+    color: blue;
+}
+
+/*Our first class*/
+/*Classes use a . sign*/
+.firstClass
+{
+    color: orange;
+}

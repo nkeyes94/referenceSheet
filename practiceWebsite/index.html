@@ -1,0 +1,197 @@
+<!DOCTYPE html>                             <!--Doc type to start code-->
+<html>                                      <!--start of HTML-->
+    <head>                                  <!--Start of head-->
+        <meta charset="UTF-8">              <!--Meta tag for charset-->
+        <title>A practice website!</title>  <!--title of page which goes in the tab-->
+        <h1>A practice website!</h1>        <!--This will be the page heading-->
+
+        <!--Let's add a favicon to our page!-->
+        <!--Favicons are those images you see in tabs, and need to go in the head of HTML-->
+        <!--I've added an icon to the root dir of this-->
+        <link rel="icon" type="image/png" href="testicon.png">
+    </head>                                 <!--End of the head-->
+
+    <body>                                  <!--Start of the page body-->
+        <!--This is a paragraph-->
+        <p1>The purpose of this webpage is to practice!</p1>
+        <!--Note: you can have different types of paragraphs, enter p2-->
+        <p2>This is another paragraph!</p2>
+        <!--Note: On the webpage as is, these appear next to each other.-->
+        <!--If we don't want this, we'd use a line break, <br> tag-->
+        <br>
+            <p1>I'm sorry guys, I need some space</p1>
+        </br>
+
+        <br>
+            <p2>The paragraph above me smells like cheese</p2>
+        </br>
+
+        <!--Note, we can put multiple items inside of a br; but it will not separate these elements!-->
+        <br>
+            <p1>I like beer!</p1>
+            <p1>Pizza goes good with beer!</p1>
+        </br>
+
+        <!--Styling our text with HTML-->
+        <!--Bold styles!-->
+        <br>
+            <!--The b tag stands for bold-->
+            <p1><b>This is bold!</b></p1>
+            <!--The strong tag. Similar to bold-->
+            <p1><strong>This is strong!</strong></p1>
+        </br>
+
+        <!--Italics-->
+        <br>
+            <!--The i tag stands for italics-->
+            <p1><i>This is italics</i></p1>
+            <!--The emphasized tag. Similar to italics-->
+            <p1><em>This is emphasized</em></p1>
+        </br>
+
+        <!--Underlined-->
+        <br>
+            <!--The u tag stands for underlined-->
+            <p1><u>This is underlined</u></p1>
+            <!--The ins tag stands for inserted text-->
+            <p1><ins>This text is inserted</ins></p1>
+        </br>
+
+        <!--Highlighted text-->
+        <br>
+            <!--Use the mark tag to highlight-->
+            <p1>This is <mark>highlighted!</mark></p1>
+        </br>
+
+        <!--Strikethrough (deleted) text-->
+        <br>
+            <!--Use the del tag to strikethrough-->
+            <p1><del>I was gonna say something, but nah</del></p1>
+        </br>
+
+        <!--Subscript text-->
+        <br>
+            <!--Use the sub tag to subscript text-->
+            <p1>I'm <sub>shrinking</sub></p1>
+        </br>
+
+        <!--Superscript text-->
+        <br>
+            <!--Use the sup tag to superscript text-->
+            <p1>Beam me up <sup>Scotty</sup></p1>
+        </br>
+
+        <!--Small text-->
+        <br>
+            <p1><small>I'm small</small></p1>
+        </br>
+        
+        <!--This is a list, note when used outside of a definition (ol or ul) it will defaul bullet points-->
+        <li>Bullet one</li>
+        <li>Bullet two</li>
+        <!--This is a numbered list-->
+        <ol>                                <!--Start of our Ordered List (ol)-->
+            <li>Number one!</li>
+            <li>Number two!</li>
+        </ol>                               <!--End of our Ordered List (ol)-->
+
+        <!--This is an unordered list-->
+        <ul>                                <!--Start of our Unordered List (ul)-->
+            <li>Bullet one</li>
+            <li>Bullet two</li>
+        </ul>                               <!--End of our Unordered List (ul)-->
+
+        <!--Styling your Ordered Lists (ol)-->
+
+        <!--Numbered list. Note this is the default-->
+        <!--Since this is default, if you wish to use this, it doesn't require the type tag-->
+        <ol type="1">                       <!--Start of our ordered list (ol) with TYPE: numbers-->
+            <li>Number one</li>
+        </ol>                               <!--End of our ordered list (ol)-->
+
+        <!--Note: we can change where we start with the ordered lists.-->
+        <!--If I wanted to start at 5 for instance, I would add start="5"-->
+        <!--This can be used with all types of ordered lists! just change the 5 in the start tag to the approaite format (IV, iv, C, c, etc.)-->
+        <ol type="1" start ="5">            <!--Start of our ordered list (ol) with TYPE: numbers STARTING at 5-->
+            <li>Number 5</li>
+        </ol>                               <!--End of our ordered list (ol)-->
+
+        <!--Capitalized roman numerals-->
+        <ol type="I">                       <!--Start of our ordered list (ol) with TYPE: roman numerals (CAPITALIZED)-->
+            <li>Roman numeral one</li>
+        </ol>                               <!--End of our ordered list (ol)-->
+
+        <!--Lower-case roman numerals-->
+        <ol type="i">                       <!--Start of our ordered list (ol) with TYPE: roman numerals (LOWER-CASE)-->
+            <li>Roman numeral one (lower case)</li>
+        </ol>                               <!--End of our ordered list (ol)-->
+
+        <!--Capitalized letters-->
+        <ol type="A">                       <!--Start of our ordered list (ol) with TYPE: letters (CAPITALIZED)-->
+            <li>Capitalized letters!</li>
+        </ol>                               <!--End of our ordered list (ol)-->
+
+        <!--Lower-case letters-->
+        <ol type="a">                       <!--Start of our ordered list (ol) with TYPE: letters (LOWER-CASE)-->
+            <li>Lowercase letters!</li>
+        </ol>                               <!--End of our ordered list (ol)-->
+
+        <!--Styling your Unordered Lists (ul)-->
+
+        <!--Disc bullet. Note: this is the default circle-->
+        <!--Since this is default, if you wish to use this, it doesn't require the type tag-->
+        <ul type="disc">                    <!--Starting our Unordered List (ul) with TYPE of bullet: disc-->
+            <li>Disc bullet!</li>
+        </ul>                               <!--Ending our Unordered List (ul)-->
+        <!--Square bullet points-->
+        <ul type="square">                  <!--Starting our Unordered List (ul) with TYPE of bullet: Square-->
+            <li>Squared Bullet!</li>
+        </ul>                               <!--Ending our Unordered List (ul)-->
+
+        <!--Circle bullet points-->
+        <ul type="circle">                  <!--Starting our Unordered List (ul) with TYPW of bullet: circle-->
+            <li>Circle Bullet!</li>
+        </ul>                               <!--Ending our Unordered List (ul)-->
+
+        <!--Definition list-->
+        <!--This is a type of list, which mimics the style of a dictionary-->
+        <dl>                                <!--Starting our Definition List (dl>-->
+            <!--Definition terms will appear above the definition-->
+            <dt>This is a definition term</dt>
+            <!--Definitions will appear beneath the term, and indented-->
+            <dd>This is a definition</dd>
+        </dl>                               <!--Ending our Definition list (dl)-->
+
+        <!--Let's add an image!-->
+        <img id="firstImage" src="https://i.imgur.com/kj6jixF.jpg">
+
+        <!--Enter CSS-->
+        <!--Using IDs with CSS-->
+        <br>
+            <p1 id="firstID">This is the use of an ID!</p1>
+        </br>
+        <!--Using classes with CSS-->
+        <br>
+            <p1 class="firstClass">This is the use of a class!</p1>
+        </br>
+
+
+    </body>                                 <!--End of the page body-->
+
+    <!--I like to link my other pages out of the way of the rest of the code-->
+
+    <!--Linking our external CSS style sheet-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--Breaking it down!-->
+    <!--rel means "relationship", and is only used when href is used-->
+    <!--type is the type of media that we're using, ie: buttons, embed, inputs, links, etc. In this case a text/css page-->
+    <!--href defines our destination, since style.css is in the same folder, I can href it-->
+    <!--href can be used on various media links, a URL, elements, protocols, scripts.-->
+
+    <!--Linking our external JS logic sheet-->
+    <script type="text/javascript" src="logic.js"></script>
+    <!--Breaking it down!-->
+    <!--Since JS is a scripting language, use the <script> tag-->
+    <!--Just as previously mentioned, type is the type of media-->
+    <!--src means source, where our sheet is located-->
+</html>
